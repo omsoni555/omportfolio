@@ -42,7 +42,7 @@ const Navbar = () => {
             handleNavClick('#home');
           }}
         >
-          {'<Dev />'}
+          {'<om />'}
         </a>
 
         {/* Desktop Navigation */}

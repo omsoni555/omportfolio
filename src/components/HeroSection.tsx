@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from './ui/button';
 
-const roles = ['Frontend Developer', 'React Specialist', 'UI/UX Enthusiast', 'Web Innovator'];
+const roles = ['Frontend Developer', 'React Specialist', 'Web Innovator'];
 
 const HeroSection = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -64,7 +64,7 @@ const HeroSection = () => {
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-6 opacity-0 animate-fade-in"
             style={{ animationDelay: '0.4s' }}
           >
-            <span className="gradient-text">John Doe</span>
+            <span className="gradient-text">Om Prakash Soni</span>
           </h1>
 
           <div
@@ -106,8 +106,8 @@ const HeroSection = () => {
             style={{ animationDelay: '1.2s' }}
           >
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
+              { icon: Github, href: 'https://github.com/omsoni555', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/omsonii/', label: 'LinkedIn' },
               { icon: Mail, href: '#contact', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <a

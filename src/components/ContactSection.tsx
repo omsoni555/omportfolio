@@ -6,9 +6,9 @@ import { Textarea } from './ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 
 const contactInfo = [
-  { icon: MapPin, label: 'Location', value: 'San Francisco, CA' },
-  { icon: Mail, label: 'Email', value: 'hello@johndoe.dev' },
-  { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567' },
+  { icon: MapPin, label: 'Location', value: 'Rewa, Madhya Pradesh' },
+  { icon: Mail, label: 'Email', value: 'os7296185@gmail.com' },
+  { icon: Phone, label: 'Phone', value: '+91 7692928591' },
 ];
 
 const ContactSection = () => {
@@ -86,7 +86,7 @@ const ContactSection = () => {
                 <Input
                   id="name"
                   type="text"
-                  placeholder="John Doe"
+                  placeholder="Om Prakash Soni"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
@@ -101,7 +101,7 @@ const ContactSection = () => {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder="os7296185@gmail.com"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   required

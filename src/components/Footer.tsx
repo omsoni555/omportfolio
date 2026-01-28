@@ -1,9 +1,9 @@
 import { Github, Linkedin, Twitter, Heart } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
+  { icon: Github, href: 'https://github.com/omsoni555', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/omsonii/', label: 'LinkedIn' },
+  { icon: Twitter, href: 'https://x.com/OmSoni7692', label: 'Twitter' },
 ];
 
 const Footer = () => {
@@ -12,10 +12,9 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-muted-foreground">
-            <span>Made with</span>
             <Heart size={16} className="text-red-500 animate-pulse" fill="currentColor" />
-            <span>by</span>
-            <span className="gradient-text font-semibold">John Doe</span>
+            <span>Made by</span>
+            <span className="gradient-text font-semibold">Om Prakash Soni</span>
           </div>
 
           <div className="flex items-center gap-4">

@@ -1,18 +1,16 @@
 import { useEffect, useRef, useState } from 'react';
 
 const skills = [
+  { name: 'HTML', level: 95, color: 'from-blue-500 to-primary' },
   { name: 'React', level: 95, color: 'from-primary to-cyan-400' },
   { name: 'TypeScript', level: 90, color: 'from-blue-500 to-primary' },
   { name: 'JavaScript', level: 95, color: 'from-yellow-500 to-orange-500' },
   { name: 'CSS/Tailwind', level: 90, color: 'from-primary to-secondary' },
   { name: 'Next.js', level: 85, color: 'from-gray-500 to-foreground' },
-  { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
 ];
 
 const technologies = [
-  'React', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Next.js', 'Node.js',
-  'GraphQL', 'Redux', 'Git', 'Figma', 'REST APIs', 'MongoDB',
-  'PostgreSQL', 'Docker', 'AWS', 'Jest', 'Cypress', 'Framer Motion',
+   'HTML5', 'CSS3','JavaScript', 'React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Redux', 'Git', 'REST APIs', 
 ];
 
 const SkillsSection = () => {

@@ -2,10 +2,12 @@
   "files": [],
   "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
   "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
+    "strict": true,
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "skipLibCheck": true,

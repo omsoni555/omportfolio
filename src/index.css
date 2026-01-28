@@ -70,7 +70,6 @@
   .glass-card {
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
-    backdrop-filter: blur(12px);
   }
 
   .glow-border {
@@ -220,6 +219,9 @@
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
   }
+}
+
+html {
+  scroll-behavior: auto;
 }

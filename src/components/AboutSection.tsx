@@ -45,12 +45,10 @@ const AboutSection = () => {
                     <span className="text-8xl">👨‍💻</span>
                   </div>
                 </div>
-                <h3 className="text-2xl font-display font-bold mb-2">John Doe</h3>
+                <h3 className="text-2xl font-display font-bold mb-2">Om Prakash Soni</h3>
                 <p className="text-primary mb-4">Frontend Developer</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  With 5+ years of experience in frontend development, I specialize in building
-                  modern web applications using React, TypeScript, and cutting-edge technologies.
-                  I believe in continuous learning and staying updated with the latest trends.
+                  Frontend Web Developer with 1 year of hands-on experience in building responsive, user-friendly web applications. Skilled in HTML, CSS, JavaScript, TypeScript, React.js, Next.js and modern UI libraries.Experienced in integrating REST APIs, and optimizing performance. Passionate about writing clean code, learning new technologies, and delivering high-quality user experiences.
                 </p>
               </div>
             </div>
